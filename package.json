@@ -1,0 +1,24 @@
+{
+  "name": "dsandalgo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:reversestring": "jest -i reversestring/test.js -t --watch",
+    "test:palindrome": "jest -i palindrome/test.js -t --watch",
+    "test:reverseInt": "jest -i reverseint/test.js -t --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShekharBhardwaj/algorithmsNdatastructures.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShekharBhardwaj/algorithmsNdatastructures/issues"
+  },
+  "homepage": "https://github.com/ShekharBhardwaj/algorithmsNdatastructures#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

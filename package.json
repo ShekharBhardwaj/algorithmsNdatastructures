@@ -6,7 +6,12 @@
   "scripts": {
     "test:reversestring": "jest -i reversestring/test.js -t --watch",
     "test:palindrome": "jest -i palindrome/test.js -t --watch",
-    "test:reverseInt": "jest -i reverseint/test.js -t --watch"
+    "test:reverseInt": "jest -i reverseint/test.js -t --watch",
+    "test:maxchar": "jest -i maxchar/test.js -t --watch",
+    "test:fizzbuzz": "jest -i fizzbuzz/test.js -t --watch",
+    "test:chunk": "jest -i chunk/test.js -t --watch",
+    "test:anagram": "jest -i anagram/test.js -t --watch"
+
   },
   "repository": {
     "type": "git",
